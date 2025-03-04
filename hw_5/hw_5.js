@@ -147,13 +147,13 @@ console.log(array_min_value(array_number))
 // - створити функцію sum(arr) яка приймає масив чисел, сумує значення елементів масиву та повертає його.
 // Приклад sum([1,2,10]) //->13
 
-const sum(arr) {
-    let sum = 0
-    for (num of arr){
-        sum = sum + num
+const sum = (arr) => {
+    let sum = 0;
+    for (let num of arr) {
+        sum += num;
     }
-    return sum
-}
+    return sum;
+};
 
 // num_arr = [5, 5, 10, 2]
 // console.log(sum(num_arr))
